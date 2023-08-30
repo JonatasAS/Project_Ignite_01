@@ -8,7 +8,7 @@ import './global.css';
 export function App() {
   const posts = [
     {
-      id: 0,
+      id: 1,
       author: {
         avatarUrl: 'https://github.com/JonatasAS.png',
         name: 'Jonatas Amorim',
@@ -23,7 +23,7 @@ export function App() {
     },
 
     {
-      id: 1,
+      id: 2,
       author: {
         avatarUrl: 'https://github.com/maykbrito.png',
         name: 'Mayk Brito',
@@ -47,6 +47,7 @@ export function App() {
          {posts.map(post => {
           return (
             <Post
+              key={post.id}
               author={post.author}
               content={post.content}
               publishedAt={post.publishedAt}
