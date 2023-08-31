@@ -6,6 +6,7 @@ import styles from './App.module.css';
 import './global.css';
 
 export function App() {
+  
   const posts = [
     {
       id: 1,
@@ -41,8 +42,11 @@ export function App() {
   return (
     <div>
       <Header />
+      
       <div className={styles.wrapper}>
+        
         <Sidebar />
+        
         <main>
          {posts.map(post => {
           return (
@@ -55,6 +59,7 @@ export function App() {
           )
          })}
         </main>
+        
       </div>
     </div>
   )
