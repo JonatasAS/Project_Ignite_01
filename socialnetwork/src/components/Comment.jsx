@@ -15,7 +15,6 @@ export function Comment({ content, onDeleteComment }) {
       return state + 1
       
     });
-    console.log(likeCount)
   }
 
   return (
