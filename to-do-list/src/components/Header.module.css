@@ -1,0 +1,18 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img {
+  width: 2.2rem;
+  height: 3.6rem;
+}
+
+h1 {
+  color: var(--blue-100);
+  font-size: 4rem;
+  font-weight: 900;
+  margin-left: 1.2rem;
+}
