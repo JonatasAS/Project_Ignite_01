@@ -8,9 +8,7 @@ export function App() {
       <div className={styles.wrapper}>
       <Header />
         <main>
-          <div>
-            
-          </div>
+          
         </main>
       </div>
     </div>
