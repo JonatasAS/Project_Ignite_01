@@ -8,7 +8,13 @@ export function App() {
       <div className={styles.wrapper}>
       <Header />
         <main>
-          
+          <div className={styles.task}>
+            <input type="text" />
+            <button> teste</button>
+            <div className={styles.taskList}>
+              <p>texto</p>
+            </div>
+          </div>
         </main>
       </div>
     </div>
