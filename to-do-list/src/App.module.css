@@ -2,3 +2,9 @@
   display: grid;
   grid-template-rows: 200px 1fr;
 }
+
+main {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
