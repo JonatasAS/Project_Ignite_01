@@ -6,12 +6,12 @@ import "./global.css";
 export function App() {
   return (
     <div>
+      <Header />
       <div className={styles.wrapper}>
-        <Header />
-        <main>
-          <Input/>
-          <button>teste</button>
-        </main>
+
+        <Input />
+        <button>teste</button>
+
       </div>
     </div>
   );

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--blue-100)
+}
+
 :root {
   font-size: 62.5%;
 

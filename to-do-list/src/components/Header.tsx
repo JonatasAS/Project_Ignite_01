@@ -5,7 +5,10 @@ export function Header() {
   return (
     <header className={styles.header}>
       <img src={rocketLogo} alt="Um fogue azul decolando" />
-      <h1>to.do</h1>
+      <h1>
+        <span>to</span>
+        <span>do</span>
+      </h1>
     </header>
   );
 }

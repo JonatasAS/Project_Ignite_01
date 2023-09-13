@@ -1,4 +1,4 @@
-import styles from './Input.module.css'
+import styles from './Input.module.css';
 
 interface inputProps {
     title: string;
@@ -6,6 +6,6 @@ interface inputProps {
 
 export function Input({title}: inputProps) {
     return(
-        <input className={styles.inputTask} type="text" title={title} placeholder="Adicione uma nova tarefa"/>
+        <input className={styles.inputTaks} type="text" title={title} placeholder="Adicione uma nova tarefa"/>
     );
 }
