@@ -9,8 +9,11 @@ export function App() {
       <Header />
       <div className={styles.wrapper}>
 
-        <Input />
-        <button>teste</button>
+        <form action="">
+
+          <Input />
+          <button>teste</button>
+        </form>
 
       </div>
     </div>

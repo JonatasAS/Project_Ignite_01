@@ -5,3 +5,8 @@
   max-width: 70rem;
   margin: -3rem auto 0;
 }
+
+form {
+    display: flex;
+    gap: .8rem;
+}
