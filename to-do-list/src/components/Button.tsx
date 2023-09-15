@@ -2,7 +2,7 @@ import styles from './Button.module.css'
 import plus from '../assets/plus.svg'
 
 interface ButtonProps {
-    title: string
+    title?: string
 }
 
 export function Button({ title }: ButtonProps) {

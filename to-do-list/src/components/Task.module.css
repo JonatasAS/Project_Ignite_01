@@ -1,0 +1,27 @@
+.wrapperTask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  
+}
+
+.task {
+  display: flex;
+  padding: 1.6rem;
+  align-items: flex-start;
+  gap: 1.2rem;
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.task p {
+  flex: 1 0 0;
+  color: var(--gray-100, #f2f2f2);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
