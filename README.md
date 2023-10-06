@@ -18,8 +18,6 @@ Se trata de uma lsita de afazeres que podemos adicionar e informar por meio de m
 ## Layout
 Documentação do projeto no figma do Projeto socialnetwork [desse link](https://www.figma.com/file/pyr2OLdYRqOrz4fOJ1Zkqw/Ignite-Feed-(Community)?type=design&node-id=0-1&mode=design&t=EKC9osWEkPnk6ya5-0). É necessário ter uma conta no [figma](https://www.figma.com).
 
-Documentação do projeto no figma do Projeto [desse link](). É necessário ter uma conta no [figma](https://www.figma.com).
-
 ### Apresentação dos projetos
 - Projeto socialnetwork
   <p align= "center">
