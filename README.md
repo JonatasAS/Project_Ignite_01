@@ -21,10 +21,10 @@ Documentação do projeto no figma do Projeto socialnetwork [desse link](https:/
 ### Apresentação dos projetos
 - Projeto socialnetwork
   <p align= "center">
-  <img src=".github/previewproject.png" alt="Demonstração do projeto" width="100%" />
+  <img src="https://github.com/JonatasAS/assets/blob/main/FocusTimerIgnite.png" alt="Demonstração do projeto" width="50%" />
   </p>
 
-- Projeto
+- Projeto To-Do List
    <p align= "center">
-  <img src=".github/previewproject.png" alt="Demonstração do projeto" width="100%" />
+  <img src="https://github.com/JonatasAS/assets/blob/main/ToDoListIgnite.png" alt="Demonstração do projeto" width="50%" />
   </p>
