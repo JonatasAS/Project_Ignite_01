@@ -10,7 +10,7 @@ Neste modulo temos dois projetos ambos seguindo a mesma ideia com tecnologias:
 -  Javascript/Typescript
 
 ## O primeiro projeto socialnetwork
-Se trata de uma rede social a onde podemos criar post, também conseguindo comentar e curtir outros, seria uma ideia para praticar com o React e suas tecnologias em conjunto, como é visto em projetos reais deste gênero como Facebook, Instagram, entre outros.
+Se trata de uma rede social a onde podemos criar post, também conseguindo comentar e curtir outros, seria uma ideia para praticar com o React e suas tecnologias em conjunto, como é visto em projetos reais deste gênero como Facebook, Instagram, entre outros. Foi feito uma versão também utilizando o TypeScript.
 
 ## O segundo projeto
 Se trata de uma lsita de afazeres que podemos adicionar e informar por meio de marcações nessas tarefas o estado em qual elas se encontram.
