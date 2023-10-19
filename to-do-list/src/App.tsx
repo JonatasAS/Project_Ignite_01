@@ -1,27 +1,14 @@
 import styles from "./App.module.css";
-import { Button } from "./components/Button";
-import { Header } from "./components/Header";
-import { Input } from "./components/Input";
-import { Tasks } from "./components/Task";
 import "./global.css";
+
+import { Header } from "./components/Header";
+import { Content } from "./components/Content";
 
 export function App() {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Header />
-      <div className={styles.wrapper}>
-
-        <form>
-          <Input />
-          <Button title="Criar" />
-        </form>
-
-        <div>
-          <Tasks />
-          <Tasks />
-        </div>
-
-      </div>
+      <Content />
     </div>
   );
 }

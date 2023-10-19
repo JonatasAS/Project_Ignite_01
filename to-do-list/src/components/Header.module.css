@@ -3,12 +3,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 20rem;
+  width: 100%;
+  gap: 1.2rem;
 }
 
 .header img {
   width: 2.2rem;
   height: 3.6rem;
+}
+
+.rocket:hover  {
+  animation: take-off 3s forwards;
+}
+
+@keyframes take-off {
+  0% {
+    -webkit-transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    -webkit-transform: translateY(-800px);
+    opacity: 0;
+  }
 }
 
 h1 {
