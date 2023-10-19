@@ -23,7 +23,7 @@ Documentação do projeto no figma do Projeto To-Do List [desse link](https://ww
 ### Apresentação dos projetos
 - Projeto socialnetwork
   <p align= "center">
-  <img src="https://github.com/JonatasAS/assets/blob/main/FocusTimerIgnite.png" alt="Demonstração do projeto" width="50%" />
+  <img src="https://github.com/JonatasAS/assets/blob/main/socialnetowrk.png" alt="Demonstração do projeto" width="50%" />
   </p>
 
 - Projeto To-Do List
