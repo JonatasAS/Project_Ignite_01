@@ -1,18 +1,33 @@
-import { Button } from './Button'
-import { Input } from './Input'
 import styles from './Content.module.css'
 import { PlusCircle } from '../../node_modules/@phosphor-icons/react/dist/index'
 
+import { CheckTask } from './checkTask'
+import { VoidTask } from './VoidTask'
 
+import { v4 as uuidv4 } from 'uuid'
+import { useState } from 'react'
+
+export interface TaskProps {
+    id: string
+    taskContent: string
+    taskIsComplete: boolean
+}
 
 export function Content() {
+    const [tasks, setTasks] = useState<TaskProps[]>(() => {
+        const storageTasks = localStorage.getItem('@ToDoList:tasks')
+
+        if ( storageTasks) {
+            return JSON.parse(storageTasks)
+        }
+
+        return []
+    })
     return (
         <div className={styles.content}>
             <form>
-              <Input />
-              <Button >
-              
-              </Button>
+                
+
 
             </form>
         </div>
