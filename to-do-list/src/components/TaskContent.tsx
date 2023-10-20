@@ -1,4 +1,4 @@
-import styles from './Content.module.css'
+import styles from './TaskContent.module.css'
 import { PlusCircle } from '../../node_modules/@phosphor-icons/react/dist/index'
 
 import { CheckTask } from './checkTask'
@@ -13,7 +13,7 @@ export interface TaskProps {
     taskIsComplete: boolean
 }
 
-export function Content() {
+export function TaskContent() {
     const [tasks, setTasks] = useState<TaskProps[]>(() => {
         const storageTasks = localStorage.getItem('@ToDoList:tasks')
 
