@@ -1,14 +1,14 @@
-import styles from "./App.module.css";
-import "./global.css";
+import styles from './App.module.css'
+import './global.css'
 
-import { Header } from "./components/Header";
-import { Content } from "./components/TaskContent";
+import { Header } from './components/Header'
+import { TaskContent } from './components/TaskContent'
 
 export function App() {
   return (
     <div className={styles.wrapper}>
       <Header />
-      <Content />
+      <TaskContent />
     </div>
-  );
+  )
 }
