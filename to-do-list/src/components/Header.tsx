@@ -11,6 +11,7 @@ export function Header() {
       />
       <h1>
         <span>to</span>
+        <span>.</span>
         <span>do</span>
       </h1>
     </header>
