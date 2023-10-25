@@ -2,7 +2,7 @@
 
 ## Esse e o primeiro projeto da trilha React do Ignite.
 
-🛠 Neste modulo temos dois projetos ambos seguindo a mesma ideia com tecnologias:
+🛠 Neste modulo temos dois projetos ambos seguindo a mesma ideia com tecnologias e conceitos:
 
 -  React.Js
 -  CSS Module
@@ -22,7 +22,7 @@ Documentação do projeto no figma do Projeto To-Do List [desse link](https://ww
 
 ### Apresentação dos projetos
 - Projeto socialnetwork
-- O projeto foi dado Deploy pelo vercel para visualização [socialnetwork](https://project-ignite-01.vercel.app/#)
+- O projeto foi implantado pelo Vercel, caso queira visualizar acesse o link [socialnetwork](https://project-ignite-01.vercel.app/#)
   
   <p align= "center">
   <img src="https://github.com/JonatasAS/assets/blob/main/socialnetowrk.png" alt="Demonstração do projeto" width="50%" />
@@ -30,6 +30,7 @@ Documentação do projeto no figma do Projeto To-Do List [desse link](https://ww
  
 
 - Projeto To-Do List
+- O projeto foi implantado pelo Vercel, caso queira visualizar acesse o link [todolist](https://to-do-list-xi-plum.vercel.app/)
    <p align= "center">
   <img src="https://github.com/JonatasAS/assets/blob/main/ToDoListIgnite.png" alt="Demonstração do projeto" width="50%" />
   </p>
