@@ -8,6 +8,7 @@
 -  CSS Module
 -  HTML
 -  Javascript/Typescript
+-  Local Storage
 
 ## 🖥 O primeiro projeto socialnetwork
 Se trata de uma rede social a onde podemos criar post, também conseguindo comentar e curtir outros, seria uma ideia para praticar com o React e suas tecnologias em conjunto, como é visto em projetos reais deste gênero como Facebook, Instagram, entre outros. Foi feito uma versão também utilizando o TypeScript.
